@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    max-width: 600px;
+    margin: auto;
+    background: lightblue;
+}
+
+header{
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    background-color: lightgreen;
+    padding: 15px;
+    height: 70px;
+}
+
+header p{
+    line-height: 10px;
+}
+
+header span{
+    color: salmon;
+}
+
+nav{
+    margin-top: 5px;
+}
+.option{
+    font-size: 23px;
+    box-sizing: border-box;
+    width: 297.5px;
+    display: inline-block;
+    background: lightsalmon;
+    padding: 15px;
+    height: 350px;
+}
+
+.option h3{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.option p{
+    margin-top: 20px;
+}
+
+.option img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100px;
+}
+
+.option:hover{
+    background: salmon;
+    cursor: pointer;
+}
+
+
+#options{
+    align-items: center;
+}
+
+#destravar {
+    float: left;
+}
+
+#online{
+    float: right;
+}
+
+footer{
+    display: inline-block;
+    text-align: center;
+    background: lightgreen;
+    width: 600px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+footer p{
+    margin-top: 25px;
+    line-height: 15px;
+}
